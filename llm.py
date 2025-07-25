@@ -304,7 +304,7 @@ Action:
                 handle_parsing_errors=True,
                 # max_iterations=15,
                 # max_execution_time=180,
-                early_stopping_method="generate",
+                # early_stopping_method="generate",
                 # trim_intermediate_steps=5
             )
             # Execute the agent
