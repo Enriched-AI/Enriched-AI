@@ -30,7 +30,7 @@ async def chat_endpoint():
        
         # Get response
         response = await chatbot.chat2(user_input)
-        print(f"\n \n\nResponse: {response}\n \n \n ")
+      
         return jsonify({
             "response": response,
             
